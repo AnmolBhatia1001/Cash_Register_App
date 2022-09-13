@@ -7,7 +7,65 @@
     <link rel="stylesheet" href="./style.css">
     <title>Cash Register App</title>
 </head>
-<body>
+<body>  
+    <!-- 08 AM -->
+    <div class="container">
+
+        <h1>Cash Register App</h1>
+
+        <div class="input-div">
+            <div class="flex-col">
+                <label for="bill-amnt">Bill Amount : </label>
+                <input type="number"  id="bill-amnt">
+            </div>
+            
+            
+            <div class="flex-col">
+                <label for="cash-given">Cash Given : </label>
+                <input type="number" id="cash-given">
+            </div>
+
+            <div>
+                <button>Check</button>
+            </div>
+
+            <div>
+                <h3 id="errorMsg"></h3>
+            </div>
+            
+        </div>
+
+        <table>
+            <caption>Return Change</caption>
+            <tr>
+                <th>No. of Notes</th>
+                <td class="num-of-note"></td>
+                <td class="num-of-note"></td>
+                <td class="num-of-note"></td>
+                <td class="num-of-note"></td>
+                <td class="num-of-note"></td>
+                <td class="num-of-note"></td>
+                <td class="num-of-note"></td>
+                <td class="num-of-note"></td>
+                <td class="num-of-note"></td>
+                <td class="num-of-note"></td>
+            </tr>
+
+            <tr>
+                <th>Notes</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>200</td>
+                <td>100</td>
+                <td>50</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
     
 
     <script src="./script.js"></script>
